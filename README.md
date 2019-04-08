@@ -3,8 +3,8 @@
 
 ```
 config: 
-- application.properties
-- /resources/static/config.js
+- /src/main/resources/application.properties
+- /src/main/resources/static/config.js
 
 You need to set your mysql url, username and password
 ```
