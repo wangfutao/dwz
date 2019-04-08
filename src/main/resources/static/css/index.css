@@ -1,0 +1,92 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+a {
+    color: #1890ff;
+}
+
+a:hover {
+    color: #1890ee;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.ywz {
+
+}
+
+.dwz {
+    width: 100%;
+}
+
+.dwz .custom {
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+}
+
+.dwz .custom {
+    margin-top: 10px;
+}
+
+.custom td:first-child {
+    margin-top: 8px;
+}
+
+.custom .dwz-input {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e5e5e5;
+    padding: 0 10px;
+
+}
+
+.custom .dwz-input span {
+    margin-top: 5px;
+    font-size: 1.3em;
+}
+
+.custom .dwz-input input {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+.custom td:last-child {
+    margin-left: 5px;
+}
+
+.system1 {
+    margin-top: 120px;
+}
+
+.res {
+    text-align: left;
+    margin-top: 20px;
+    display: none;
+}
+
+.res .copy {
+    margin-left: 10px;
+}
+
+.res > div {
+    margin-top: 10px;
+}

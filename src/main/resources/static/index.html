@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>furty_dwz短网址服务</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<main>
+    <div class="logo">
+        <img src="images/dwz_logo.png">
+    </div>
+    <div class="ywz">
+        <input class="layui-input" id="custom-ywz" type="text" placeholder="输入您要缩短的网址">
+    </div>
+    <div>
+        <table class="dwz">
+            <tr class="custom">
+                <td><p>您可以自定义短网址：</p></td>
+                <td class="dwz-input"><span class="url"></span><input id="custom-dwz" class="layui-input"></td>
+                <td>
+                    <button class="layui-btn layui-btn-normal generate" onclick="customGenerate()">生成</button>
+                </td>
+            </tr>
+            <tr class="custom">
+                <td><p>或者：</p></td>
+                <td>
+                    <button class="layui-btn layui-btn-normal generate" onclick="systemGenerate()">系统自动生成短网址</button>
+                </td>
+            </tr>
+        </table>
+
+        <div class="res">
+            <hr>
+            <div>短网址：<a id="generated-dwz" href=""></a>
+                <button  data-clipboard-target="#generated-dwz" class="layui-btn layui-btn-normal layui-btn-sm copy-btn">复制网址</button>
+            </div>
+            <div>原网址：<a id="generated-ywz" href=""></a></div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="layer/layer.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="config.js"></script>
+<script src="js/index.js"></script>
+</html>
