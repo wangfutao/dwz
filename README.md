@@ -27,7 +27,4 @@ sql:
 ```
 
 
-你可以直接访问 [d.furty.cn](http://d.furty.cn)
-
-
 后期加入redis缓存、配置页面、数据统计页面。
